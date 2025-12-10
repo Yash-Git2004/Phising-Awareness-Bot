@@ -1,0 +1,9 @@
+{
+  "benign": "From: Alice <alice@example.com>\nTo: you@example.org\nSubject: Meeting notes\n\nHi team,\nPlease find the attached meeting notes. Let me know if you have questions.\nBest,\nAlice",
+
+  "phish1": "From: PayPal <service@paypal-support.com>\nTo: you@example.org\nSubject: Your account is limited - Verify now\n\nDear user,\nYour PayPal account has been limited. Please verify your account immediately by clicking the link below:\nhttp://198.51.100.25/verify-account\n\nFailure to verify will result in account suspension.\n\nSincerely,\nPayPal Security",
+
+  "phish2": "From: IT Support <it-support@university.edu>\nTo: student@example.edu\nSubject: URGENT: Password Reset Required\n\nDear Student,\nWe detected unusual activity. Reset your password immediately: http://univ-secure-login.com/login\n\nIf you did not request this, contact support.\n\nRegards,\nIT Team",
+
+  "suspicious_attach": "From: Unknown <unknown@randomdomain.xyz>\nTo: you@example.org\nSubject: Documents attached\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary=abcd\n\n--abcd\nContent-Type: text/plain\n\nPlease see attached.\n\n--abcd\nContent-Disposition: attachment; filename=invoice.exe\nContent-Type: application/octet-stream\n\n(attachment)\n--abcd--"
+}

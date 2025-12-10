@@ -1,0 +1,3 @@
+tldextract
+streamlit
+pip~=25.3                                                                                    
